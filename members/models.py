@@ -4,14 +4,15 @@ from django.db import models
 
 class Accounts(models.Model):
 
-    fname  = models.CharField(max_length=50)
-    lname =  models.CharField(max_length=50)
-    email = models.CharField(max_length=50)
-    password = models.CharField(max_length=50)
-    city = models.CharField(max_length=50)
-    zip = models.CharField(max_length=50)
+    fname  = models.CharField(max_length=50, null=True)
+    lname =  models.CharField(max_length=50,null=True)
+    email = models.CharField(max_length=50,null=True)
+    address = models.CharField(max_length=50, null=True)
+    password = models.CharField(max_length=50, null=True)
+    city = models.CharField(max_length=50, null=True)
+    zip = models.CharField(max_length=50, null=True)
 
-    def __str__(self) -> str:
+    def __str__(self):
         return self.fname
 
     class Meta :
