@@ -1,3 +1,4 @@
+from typing import Any
 from django.db import models
 
 # Create your models here.
@@ -11,6 +12,7 @@ class Accounts(models.Model):
     password = models.CharField(max_length=50, null=True)
     city = models.CharField(max_length=50, null=True)
     zip = models.CharField(max_length=50, null=True)
+
 
     def __str__(self):
         return self.fname
