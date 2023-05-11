@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+    <div class="container my-5">
+        <div class="row">
+            <h1>Hi {{pro.fname}} {{pro.lname}}</h1>
+            <h3>your email : {{pro.email}}</h3>
+            <h3>your address : {{pro.address}}</h3>
+            <h3>your city : {{pro.city}}</h3>
+            <h3>your zip : {{pro.zip}}</h3>
+        </div>
+    </div>
+
+
+{% endblock content %}

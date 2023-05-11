@@ -39,7 +39,7 @@ def login(request):
         for i in x  :
             if i.email == email:
                 if i.password == password:
-                    return redirect('members')
+                    return home(request,  i)
 
 
         return redirect('wrong')
@@ -49,3 +49,9 @@ def login(request):
 
 def wrong(req):
     return render(req, 'members/wrong.html')
+
+
+def home(req, x):
+
+
+    return render(req, 'members/home.html',{"pro":x})
