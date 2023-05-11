@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models  import Accounts
 
 
@@ -20,6 +20,32 @@ def members(request):
                         , city=city,  zip=zip, address= address)
 
         data.save()
+        return redirect('login')
 
 
     return render(request, 'members/index.html')
+
+
+
+def login(request):
+
+    if request.method == 'POST':
+
+        password = request.POST.get("password")
+        email =  request.POST.get("email")
+
+        x= Accounts.objects.all()
+
+        for i in x  :
+            if i.email == email:
+                if i.password == password:
+                    return redirect('members')
+
+
+        return redirect('wrong')
+    
+    return render(request, 'login/login.html')
+
+
+def wrong(req):
+    return render(req, 'members/wrong.html')
