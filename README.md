@@ -6,13 +6,18 @@ An example of Django project with basic user functionality.
 
 ## Screenshots
 
-| Log In | Create an account | Authorized page |
-| -------|--------------|-----------------|
-| <img src="https://github.com/khalilhasan23/Login-Django-python/blob/main/screenshot/1.png" width="200"> | <img src="[./screenshots/create_an_account.png](https://github.com/khalilhasan23/Login-Django-python/blob/main/screenshot/2.png)" width="200"> | <img src="./screenshots/authorized_page.png" width="200"> |
+| Log In | 
+| -------|
+| <img src="https://github.com/khalilhasan23/Login-Django-python/blob/main/screenshot/1.png" width="500"> | 
 
-| Password reset | Set new password | Password change |
-| ---------------|------------------|-----------------|
-| <img src="./screenshots/password_reset.png" width="200"> | <img src="./screenshots/set_new_password.png" width="200"> | <img src="./screenshots/password_change.png" width="200"> |
+| Create an account | 
+|-------------------|
+|<img src="https://github.com/khalilhasan23/Login-Django-python/blob/main/screenshot/2.png" width="500"> | 
+
+
+| User Page |
+| ----------|
+| <img src="https://github.com/khalilhasan23/Login-Django-python/blob/main/screenshot/3.png" width="500"> |
 
 ## Functionality
 
