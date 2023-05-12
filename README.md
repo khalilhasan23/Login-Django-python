@@ -22,22 +22,10 @@ An example of Django project with basic user functionality.
 ## Functionality
 
 - Log in
-    - via username & password
-    - via email & password
-    - via email or username & password
-    - with a remember me checkbox (optional)
 - Create an account
 - Log out
-- Profile activation via email
-- Reset password
-- Remind a username
-- Resend an activation code
-- Change password
-- Change email
-- Change profile
-- Multilingual: English, French, Russian, Simplified Chinese and Spanish
+- Profile 
 
-If you need dynamic URLs with the language code, check out https://github.com/egorsmkv/simple-django-login-and-register-dynamic-lang
 
 ## Installing
 
