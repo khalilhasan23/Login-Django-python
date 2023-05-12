@@ -8,16 +8,16 @@ An example of Django project with basic user functionality.
 
 | Log In | 
 | -------|
-| <img src="https://github.com/khalilhasan23/Login-Django-python/blob/main/screenshot/1.png" width="500"> | 
+| <img src="https://github.com/khalilhasan23/Login-Django-python/blob/main/screenshot/1.png" width="1000"> | 
 
 | Create an account | 
 |-------------------|
-|<img src="https://github.com/khalilhasan23/Login-Django-python/blob/main/screenshot/2.png" width="500"> | 
+|<img src="https://github.com/khalilhasan23/Login-Django-python/blob/main/screenshot/2.png" width="1000"> | 
 
 
 | User Page |
 | ----------|
-| <img src="https://github.com/khalilhasan23/Login-Django-python/blob/main/screenshot/3.png" width="500"> |
+| <img src="https://github.com/khalilhasan23/Login-Django-python/blob/main/screenshot/3.png" width="1000"> |
 
 ## Functionality
 
