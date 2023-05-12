@@ -29,39 +29,32 @@ An example of Django project with basic user functionality.
 
 ## Installing
 
+### First Create Virtual Environment
+
+```bash
+py -m venv myworld
+```
+
+### Then you have to activate the environment, by typing this command:
+
+```bash
+myworld\Scripts\activate.bat
+```
+
+
+### Install Django
+
+```bash
+py -m pip install Django
+```
+
 ### Clone the project
 
 ```bash
 git clone https://github.com/egorsmkv/simple-django-login-and-register
-cd simple-django-login-and-register
+
 ```
 
-### Install dependencies & activate virtualenv
-
-```bash
-pip install poetry
-
-poetry install
-poetry shell
-```
-
-### Configure the settings (connection to the database, connection to an SMTP server, and other options)
-
-1. Edit `source/app/conf/development/settings.py` if you want to develop the project.
-
-2. Edit `source/app/conf/production/settings.py` if you want to run the project in production.
-
-### Apply migrations
-
-```bash
-python source/manage.py migrate
-```
-
-### Collect static files (only on a production server)
-
-```bash
-python source/manage.py collectstatic
-```
 
 ### Running
 
@@ -70,5 +63,5 @@ python source/manage.py collectstatic
 Just run this command:
 
 ```bash
-python source/manage.py runserver
+python project/manage.py runserver
 ```
